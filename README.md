@@ -7,7 +7,7 @@ This project demonstrates a multi-VM cloud environment built on Microsoft Azure,
 
 ### Architecture
 The lab consists of two virtual machines connected through a shared virtual network (my-vnet), each with dedicated networking and security resources:
-- ServerVM (Domain/Server)
+- ServerVM (Server Node)
 - Windows11 - Client (Client Computer)
 
 ### What Was Built
@@ -16,7 +16,7 @@ The lab consists of two virtual machines connected through a shared virtual netw
 - Assigned Public IP addresses to each machine for remote access
 - Applied Network Security Groups (NSGs) to control inbound/outbound traffic rules
 - Attached managed OS disks to each VM for persistent storage
-- Established bidirectional connectivity between the server and both client nodes through the virtual network
+- Established bidirectional connectivity between the server and client nodes through the virtual network
 
 ### Skills Demonstrated
 - Azure Virtual Machine provisioning
